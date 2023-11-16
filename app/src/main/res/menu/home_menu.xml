@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/label_vector_home"/>
+    <item
+        android:id="@+id/ubicationFragment"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="@string/location_label"/>
+    <item
+        android:id="@+id/productsFragment"
+        android:icon="@drawable/ic_baseline_restaurant_menu_24"
+        android:title="@string/label_products_vector"/>
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="@string/profile_label"/>
+</menu>

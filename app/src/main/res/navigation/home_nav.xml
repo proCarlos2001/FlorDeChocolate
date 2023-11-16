@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.flordechocolate.ui.fragments.HomeFragment"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_productsFragment"
+            app:destination="@id/productsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ubicationFragment"
+        android:name="com.example.flordechocolate.ui.fragments.UbicationFragment"
+        tools:layout="@layout/fragment_ubication" />
+    <fragment
+        android:id="@+id/productsFragment"
+        android:name="com.example.flordechocolate.ui.fragments.ProductsFragment"
+        tools:layout="@layout/fragment_products" >
+        <argument
+            android:name="name"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="null" />
+        <argument
+            android:name="search"
+            app:argType="boolean"
+            android:defaultValue="true" />
+        <action
+            android:id="@+id/action_productsFragment_to_productsDetailFragment"
+            app:destination="@id/productsDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.flordechocolate.ui.fragments.ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/productsDetailFragment"
+        android:name="com.example.flordechocolate.ui.fragments.ProductsDetailFragment"
+        tools:layout="@layout/fragment_products_detail" />
+</navigation>

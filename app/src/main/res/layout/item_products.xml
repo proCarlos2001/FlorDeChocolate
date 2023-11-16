@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="29dp"
+    app:cardElevation="@dimen/card_elevation">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/products_item_frutos"
+        android:layout_width="153dp"
+        android:layout_height="141dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="@dimen/default_margin"
+        android:layout_marginBottom="55dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ch_frutos_rojos" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@id/products_fragment_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/small_margin"
+        tools:text=""
+        android:textAppearance="@style/Theme.FlorDeChocolate.Body1"
+        android:textColor="@color/Primary"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/products_text_ch_title"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="Cheesecake de frutos rojos"
+        android:textColor="@color/black"
+        android:textSize="16dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/products_text_amount"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="115dp"
+        android:text="$11.500"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+
+</androidx.cardview.widget.CardView>

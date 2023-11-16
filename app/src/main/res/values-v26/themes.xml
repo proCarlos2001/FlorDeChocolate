@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.FlorDeChocolate.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/lato_bold</item>
+        <item name="android:textColor">@color/Primary</item>
+        <item name="android:fontWeight">700</item>
+    </style>
+</resources>

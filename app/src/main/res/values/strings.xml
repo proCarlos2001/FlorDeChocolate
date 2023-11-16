@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Flor de chocolate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_label">Ingrese correo electronico</string>
+    <string name="password_label">Ingrese la contraseña</string>
+    <string name="forgot_label">Olvidaste la contraseña ?</string>
+    <string name="login_button_label">Ingresar</string>
+    <string name="label2">Registrate ahora!</string>
+    <string name="label_1">No tengo cuenta</string>
+    <string name="forgot_button_label">Cambiar la contraseña</string>
+    <string name="name_hint_label">Ingrese el nombre</string>
+    <string name="male_label">Masculino</string>
+    <string name="female_label">Femenino</string>
+    <string name="other_label">Otro</string>
+    <string name="signup_button_label">Crear cuenta</string>
+    <string name="label3">Tengo una cuenta</string>
+    <string name="label4">!Iniciar sesión!</string>
+    <string name="email_error">Email no valido</string>
+    <string name="password_error">Contraseña no valido</string>
+    <string name="title_flor_de_chocolate">Flor de chocolate</string>
+    <string name="label_vector_home">Home</string>
+    <string name="location_label">Ubicacion</string>
+    <string name="label_products_vector">Productos</string>
+    <string name="label_w_vector">WhatsApp</string>
+    <string name="profile_label">Mi perfil</string>
+    <string name="home_title">Pastelería, cafetería y más!</string>
+    <string name="home_subtitle">Categorías</string>
+    <string name="home_subtitle_recomended">Recomendado</string>
+    <string name="aotucomplete_hint">Buscar</string>
+    <string name="products_title">Nuestros productos</string>
+    <string name="about_us">Descripción</string>
+    <string name="bought">Compras</string>
+    <string name="grade">Calificación</string>
+    <string name="exp">Experiencia</string>
+
+
+</resources>

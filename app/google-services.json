@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "138938482202",
+    "project_id": "flordechocolate-c4g10",
+    "storage_bucket": "flordechocolate-c4g10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138938482202:android:99404258d54e7addf91ba3",
+        "android_client_info": {
+          "package_name": "com.example.flordechocolate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138938482202-punbsmtks3k5ghul7pbq8qjad5vbt53h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTWa-2etLO0lRnNKl7uSqEuihbpA6b4Jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138938482202-punbsmtks3k5ghul7pbq8qjad5vbt53h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

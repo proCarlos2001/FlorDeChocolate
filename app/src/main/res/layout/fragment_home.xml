@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.HomeFragment">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/home_fragment_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_title"
+        android:textAppearance="@style/Theme.FlorDeChocolate.Headline5"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="@dimen/small_margin"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/home_fragment_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:layout_marginTop="16dp"
+        android:text="@string/home_subtitle"
+        android:textAppearance="@style/Theme.FlorDeChocolate.Headline5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_fragment_title"/>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/home_fragment_recycler_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:layout_marginVertical="@dimen/default_margin"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/home_fragment_subtitle"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/home_fragment_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:itemCount="4"
+            tools:listitem="@layout/item_service"/>
+
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/home_fragment_subtitle_recomended"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:layout_marginTop="16dp"
+        android:text="@string/home_subtitle_recomended"
+        android:textAppearance="@style/Theme.FlorDeChocolate.Headline5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_fragment_recycler_refresh"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/home_fragment_recycler_two"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/default_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/home_fragment_subtitle_recomended"
+        tools:listitem="@layout/item_recomended"
+        tools:itemCount="2"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

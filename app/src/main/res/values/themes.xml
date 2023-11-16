@@ -1,0 +1,71 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FlorDeChocolate" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Primary</item>
+        <item name="colorPrimaryVariant">@color/primaryVariant</item>
+        <item name="colorOnPrimary">@color/PrimaryText</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondaryVariant</item>
+        <item name="colorOnSecondary">@color/secondaryText</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/error</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar">@color/black</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Flor.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Flor.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Flor.Large</item>
+        <item name="textAppearanceButton">@style/Theme.FlorDeChocolate.TextAppearanceButton</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.FlorDeChocolate.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.FlorDeChocolate.TextAppearanceButton" parent="Widget.MaterialComponents.Button">
+        <item name="fontFamily">@font/lato_bold</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="Theme.FlorDeChocolate.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.FlorDeChocolate.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="ShapeAppearance.Flor.Small" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Flor.Medium" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Flor.Large" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+    
+    <style name="cutImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Theme.FlorDeChocolate.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/lato</item>
+        <item name="android:textSize">@dimen/label_text_size</item>
+    </style>
+
+    <style name="Theme.FlorDeChocolate.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/lato_bold</item>
+        <item name="android:textColor">@color/Primary</item>
+
+    </style>
+</resources>
